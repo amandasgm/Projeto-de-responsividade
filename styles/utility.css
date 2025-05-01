@@ -25,7 +25,7 @@
   --max-width:375px;
    max-width: var(--max-width); /*ou 100% - var(--px-lg) */
    width: calc(100% - var(--px-lg) * 2);
-   border: 3px solid red;
+   /* border: 1px solid red; */
    margin-inline: auto;
 }
 

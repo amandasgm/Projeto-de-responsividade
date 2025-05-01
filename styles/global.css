@@ -71,6 +71,7 @@ h3{
   font-size: var(--fs-lg);
 }
 a{
+  font-family: var(--ff-sans);
   text-decoration: none;
   color: inherit;
 }

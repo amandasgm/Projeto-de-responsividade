@@ -1,0 +1,10 @@
+header div{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  gap: 1.5rem;
+  align-items: center;
+  color: var(--text-color-secondary);
+}
