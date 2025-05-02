@@ -1,0 +1,7 @@
+#plans-prices{
+  
+  & .sections-header{
+    justify-items: center;
+    text-align: center;
+  }
+}
