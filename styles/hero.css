@@ -1,7 +1,6 @@
 #hero {
   margin-top: 4rem;
-  background: url(../assets/icons/bg-hero-desktop.svg) no-repeat bottom center/contain;
-  padding-bottom: 15rem;
+  /* padding-bottom: 3rem; */
 
   & .container{
       display: grid;
@@ -27,7 +26,8 @@
 
 @media (width >= 80em) {
   #hero{
-    margin-top: 6rem;
+    background: url(../assets/icons/bg-hero-desktop.svg) no-repeat bottom center/contain;
+    padding-bottom:15rem ;
 
     & h1{
       font-size: 4rem;

@@ -1,0 +1,36 @@
+#about{
+  background-color: var(--surface-color);
+  & .even-columns {
+    align-items: center;
+    gap: 2rem;
+  }
+}
+
+#smarthphones-img {
+  margin-top: 5rem;
+  background: url(../assets/icons/bg-phones.svg) top/cover;
+  display: flex;
+}
+
+.sections-header{
+  margin-top: 2.875rem;
+  margin-bottom: .5rem;
+
+  & header{
+    margin-bottom: .5rem;
+    display: grid;
+    gap: .5rem;
+  }
+}
+
+
+
+
+
+
+@media (width >= 80em) {
+  #smarthphones-img {
+    display: none;
+  }
+
+}

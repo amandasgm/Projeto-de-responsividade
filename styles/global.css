@@ -51,6 +51,7 @@ html{
 }
 
 body{
+  font-family: var(--ff-sans);
   background-color: var(--bg-color);
 }
 
@@ -68,16 +69,34 @@ h1{
 }
 h2{
   font-size: var(--fs-xl);
-  color: var(--text-color-secondary);
+  font-weight: var(--fw-bold);
+
 }
 h3{
   font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+}
+strong{
+  font-size: var(--fs-xl);
+  color: var(--text-color-secondary);
+}
+p{
+  color: var(--text-color-secondary);
+  font-size: var(--fs-base);
+}
+span{
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 0.08em;
+  color: var(--brand-color-primary);
+  font: var(--fw-md) var(--fs-sm)/100% var(--ff-sans);
 }
 a{
   font-family: var(--ff-sans);
   text-decoration: none;
   color: inherit;
 }
+
 a:hover{  /* link com hover em gradiente */
   background: linear-gradient(
     90deg, 
@@ -90,6 +109,11 @@ a:hover{  /* link com hover em gradiente */
 }
 ul[role="list"]{
   list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
 }
 
 @media(width >= 1280px){  /*para telas de maiores */
