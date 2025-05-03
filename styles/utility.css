@@ -21,6 +21,10 @@
   gap: 1rem;
 }
 
+.items-center{
+  align-items: center;
+}
+
 .container{
   --max-width:375px;
    max-width: var(--max-width); /*ou 100% - var(--px-lg) */
@@ -36,6 +40,9 @@
 .gap-1{
   gap: 1rem;
 }
+.gap-1-5{
+  gap: 1.5rem;
+}
 
 .grid{
   display: grid;
@@ -46,9 +53,9 @@ li{
   gap: .5rem;
 }
 
- @media (width >= 1280px){ /*para telas de maiores */
+ @media (width >= 80em){ /*para telas de maiores */
   .container{
-    --max-width:1280px;
+    --max-width:80em;
   }
 
   /* quando tiver em telas grandes, as tags que tiverem essa classe iram voltar ao seu display padrao inicial */

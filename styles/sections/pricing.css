@@ -1,0 +1,103 @@
+#pricing{
+  --fs-price: 2rem;
+  & header {
+    text-align: center;
+  }
+
+  & .container {
+    gap: 1rem;
+
+    & .boxes {
+      margin-top: 2rem;
+
+      & .box-prices{
+        background-color: var(--surface-color);
+        border: 1px solid var(--stroke-color);
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+        gap: 1rem;
+        display: grid;
+        overflow: hidden;
+
+        & zin-pricing{
+          margin-top: 1.5rem;
+          display: block;
+          font: var(--fw-bold) var(--fs-price)/1.2 var(--ff-sans);
+        }
+
+        & zin-pricing small{
+          font: var(--fw-base) 1rem/125% var(--ff-sans);
+          color: var(--text-color-secondary);
+        }
+
+        & button{
+          width: 100%;
+          margin-block: 1.5rem;
+        }
+        
+        & li{
+          display: flex;
+          align-items: flex-start;
+          margin-top: .5rem;
+        }
+        
+        & ul + p{
+          display: block;
+          font-size: .875rem;
+          color: var(--text-color-secondary);
+        }
+
+        & img[src*="Line"]{
+          margin-bottom: .5rem;
+        }
+
+        
+      }
+
+      & .premium{
+        border: 2px solid var(--brand-color-primary);
+        cursor: pointer;
+        position:relative;
+        background-color: var(--surface-color);
+        border-radius: 1.5rem;
+        
+        & .box-prices{
+          border: none;
+        }
+
+        & .text-box{
+          display: block;
+          width: 9.75rem;
+          bottom: 100%;
+          background: var(--brand-color-primary);
+          color: var(--surface-color);
+          padding-inline: 1.5rem;
+          padding-block: .5rem;
+          border-radius: 1rem 0rem 1.5rem 0rem;
+          text-transform: uppercase;
+        }
+      }
+
+      
+    }
+  }
+  @media (width >= 80em) {
+    & header{
+      max-width: 50rem;
+      margin-inline: auto;
+    }
+
+    & img[src*="Line"]{
+      display: none;
+    }
+
+    & h4{
+      font-size: 1.5rem;
+    }
+  
+    & .premium{
+      padding-bottom: 6rem;
+    }
+  }
+}
+

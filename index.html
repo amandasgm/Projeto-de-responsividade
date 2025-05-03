@@ -13,7 +13,7 @@
 </head>
 <body>
   <header>
-    <div class="container py-base flex">
+    <div class=" container py-base">
       <a href="#">
         <img src="assets/icons/Logo.svg" alt="">
       </a>
@@ -63,7 +63,7 @@
   </section>
 
   <section id="features">
-    <div class="cards container">
+    <div class="container cards">
 
       <div class="card">
         <div>
@@ -111,8 +111,8 @@
     </div>
   </section>
 
-  <section id="plans-prices">
-    <div class="container grid">
+  <section id="pricing">
+    <div class="container py-xl">
       <div class="sections-header">
         <header>
           <span>Planos e preços</span>
@@ -120,18 +120,19 @@
         </header>
       </div>
 
-      <div class="boxes">
-        <div class="box-prices">
+      <div class="boxes even-columns items-center">
+        <div class="box-prices ">
           <div>
             <h4>Básico</h4>
             <p>Baixe o app e comece a cantar agora mesmo!</p>
           </div>
           <div>
-            <h1>Grátis</h1>
+            <zin-pricing>Grátis</zin-pricing>
             <button aria-label="Baixe agora" class="btn btn-md"></button>
           </div>
           <img src="assets/icons/Line 148.svg" alt="">
-          
+          <img class="desktop-only" src="assets/icons/line-desktop.svg" alt="">
+
           <!-- ALINHAR LETRA COM O CHECK -->
           <ul role="list">
             <li>
@@ -153,10 +154,135 @@
           </ul>
         </div>
 
-        <!-- AQUI VEM OUTRO BOX-PRICE MAS TEM Q TERMINAR DE CONFIGURAR O DE CIMA PRIMEIRO -->
+        <div class="premium">
+          <div class="text-box">1 mês gratis</div>
+          <div class="box-prices">
+            <div>
+              <h4>Premium</h4>
+              <p>Ideal para quem já cansou de passar vergonha no Karaokê</p>
+            </div>
+            <div>
+              <zin-pricing>R$ 24,90 <small>/mês</small></zin-pricing>
+              <button class="btn btn-md">Experimente de graça</button>
+            </div>
+            <img src="assets/icons/Line 148.svg" alt="">
+            <img class="desktop-only" src="assets/icons/line-desktop.svg" alt="">
+            <ul role="list">
+              <li>
+                <img src="assets/icons/Check.svg" alt="">
+                <p>Sem interrupção de anúncios</p>
+              </li>
+              <li>
+                <li>
+                  <img src="assets/icons/Check.svg" alt="">
+                  <p>Cante quantas músicas quiser</p>
+                </li>
+              </li>
+              <li>
+                <li>
+                  <img src="assets/icons/Check.svg" alt="">
+                  <p>Cante todas as músicas da biblioteca</p>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="box-prices">
+          <div>
+            <h4>Família</h4>
+            <p>Para aquelas famílias que adoram se reunir pra cantar</p>
+          </div>
+          <div>
+            <zin-pricing>R$ 21,90 <small>/mês por pessoa</small></zin-pricing>
+            <button aria-label="Assinar agora" class="btn btn-md"></button>
+          </div>
+          <img src="assets/icons/Line 148.svg" alt="">
+          <img class="desktop-only" src="assets/icons/line-desktop.svg" alt="">
+
+          <ul role="list">
+            <li>
+              <img src="assets/icons/Check.svg" alt="">
+              <p>Sem interrupção de anúncios</p>
+            </li>
+            <li>
+              <li>
+                <img src="assets/icons/Check.svg" alt="">
+                <p>Cante quantas músicas quiser</p>
+              </li>
+            </li>
+            <li>
+              <li>
+                <img src="assets/icons/Check.svg" alt="">
+                <p>Cante todas as músicas da biblioteca</p>
+              </li>
+            </li>
+          </ul>
+
+          <p>Mínimo de 4 pessoas no plano família.</p>
+        </div>
       </div>
     </div>
   </section>
+
+  <section id="download">
+    <div class="container py-xl">
+      <div class="card px-lg even-columns items-center">
+        <div>
+          <header>
+            <span>download</span>
+            <h2>Bora cantar?</h2>
+          </header>
+          <p>Desperte seu potencial de estrela, liberte sua voz e faça parte da comunidade musical mais envolvente. Baixe o Zingen agora e transforme suas performances em experiências inesquecíveis!</p>
+
+          <div class="buttons flex gap-1">
+            <a href="#"><img src="assets/icons/App store button.svg" alt=""></a>
+            <a href="#"><img src="assets/icons/Play Store button.svg" alt=""></a>
+          </div>
+        </div>
+        <img src="assets/images/rapaz-ouvindo-musica-com-fones-de-ouvido-e-cantando-no-aplicativo-de-karaoke-removebg 1.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container py-xl grid">
+
+      <section class="grid top">
+        <img src="assets/icons/Logo.svg" alt="">
+        
+        <nav class="even-columns">
+          <ul role="list" class="grid gap-1-5">
+            <span>Produto</span>
+            <li><a href="#features">Funcionalidades</a></li>
+            <li><a href="#pricing">Planos e preços</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+          <ul role="list" class="grid gap-1-5">
+            <span>Empresa</span>
+            <li><a href="#">Sobre nos</a></li>
+            <li><a href="#">Trabalhe conosco</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <ul role="list" class="grid gap-1-5">
+            <span>Legal</span>
+            <li><a href="#">Termos de uso</a></li>
+            <li><a href="#">Política de privacidade</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="bottom flex gap-1-5">
+        <div class="flex gap-1-5">
+          <a href="#" class="social" aria-label="tiktok"></a>
+          <a href="#" class="social" aria-label="instagram"></a>
+          <a href="#" class="social" aria-label="twitter"></a>
+          <a href="#" class="social" aria-label="discord"></a>
+        </div>
+        <p>©2024 Zingen Technologies, Inc.</p>
+      </section>
+    </div>
+  </footer>
 
 </body>
 </html>

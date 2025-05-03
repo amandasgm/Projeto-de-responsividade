@@ -1,5 +1,6 @@
 #about{
   background-color: var(--surface-color);
+
   & .even-columns {
     align-items: center;
     gap: 2rem;
@@ -31,6 +32,10 @@
 @media (width >= 80em) {
   #smarthphones-img {
     display: none;
+  }
+
+  #about{
+    margin-inline: auto;
   }
 
 }
