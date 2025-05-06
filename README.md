@@ -3,7 +3,6 @@
 
 ![Capa do projeto](assets/images/capa-readme.png)
 
->>>>>>> 7a3f391 (update readme)
 
 ### 🚀 Tecnologias
 
