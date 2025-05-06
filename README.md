@@ -1,12 +1,6 @@
 # Zingen
 ### Projeto de estudo sobre responsividade 
 
-
-<<<<<<< HEAD
-<p>
-  <img alt="" src="assets/images/capa readme.jpg" width="100%">
-</p>
-=======
 ![Capa do projeto](assets/images/capa-readme.png)
 
 >>>>>>> 7a3f391 (update readme)
