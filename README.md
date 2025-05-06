@@ -2,7 +2,7 @@
 ### Projeto de estudo sobre responsividade 
 
 
-<p a>
+<p>
   <img alt="" src="assets/images/capa readme.jpg" width="100%">
 </p>
 
